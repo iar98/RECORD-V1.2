@@ -71,10 +71,7 @@ window.addEventListener("resize", function() {
     });
 
     //suara 
-    var button = document.getElementById('button_voice2');
-      var textarea = document.getElementById('textarea');
-
-      button.addEventListener('click', function() {
+      button_voice2.addEventListener('click', function() {
         var text = textarea.value;
         var speech = new SpeechSynthesisUtterance(text);
 
